@@ -1,0 +1,14 @@
+// Variable overrides first
+$primary: #3abeff;
+$secondary: #a57db4;
+$success: #26ffe6;
+$danger: #820933;
+$warning: #f4ac45;
+$info: #92bfb1;
+$light: #d2fdff;
+$dark: #171a21;
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+//@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
